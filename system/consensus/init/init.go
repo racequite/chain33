@@ -6,6 +6,8 @@
 package init
 
 import (
+	// init snowman finalize consensus
+	_ "github.com/33cn/chain33/system/consensus/snowman"
 	//初始化
 	_ "github.com/33cn/chain33/system/consensus/solo"
 )
